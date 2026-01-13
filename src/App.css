@@ -1,0 +1,21 @@
+/* React Flow 스타일은 reactflow/dist/style.css에서 가져옵니다 */
+
+/* Handle 위치 조정 - 섹션 박스의 가장자리에 맞춤 */
+.react-flow__handle-left {
+  left: -10px !important;
+}
+
+.react-flow__handle-right {
+  right: -10px !important;
+}
+
+/* 엣지 스타일 개선 */
+.react-flow__edge-path {
+  stroke-width: 2;
+  stroke: #a78bfa;
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: #8b5cf6;
+  stroke-width: 2.5;
+}
