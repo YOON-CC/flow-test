@@ -1,7 +1,7 @@
 import { Handle, Position } from 'reactflow'
 import type { NodeProps } from 'reactflow'
 
-export const ResearchNode = ({ data, id }: NodeProps & { id?: string }) => {
+export const ResearchNode = ({ data }: NodeProps) => {
   return (
     <>
       <div className="w-[670px] flex justify-between items-center mb-3 pb-3">

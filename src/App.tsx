@@ -18,11 +18,11 @@ import { SkeletonNode } from './nodes/SkeletonNode'
 import { nodeTemplates, type NodeTemplateType } from './nodes/nodeTemplates'
 
 const nodeTypes = {
-  research: (props: NodeProps) => <ResearchNode {...props} id={props.id} />,
-  design: (props: NodeProps) => <DesignNode {...props} id={props.id} />,
-  imageGeneration: (props: NodeProps) => <ImageGenerationNode {...props} id={props.id} />,
-  imageResult: (props: NodeProps) => <ImageResultNode {...props} id={props.id} />,
-  skeleton: (props: NodeProps) => <SkeletonNode {...props} id={props.id} />,
+  research: (props: NodeProps) => <ResearchNode {...props} />,
+  design: (props: NodeProps) => <DesignNode {...props} />,
+  imageGeneration: (props: NodeProps) => <ImageGenerationNode {...props} />,
+  imageResult: (props: NodeProps) => <ImageResultNode {...props} />,
+  skeleton: (props: NodeProps) => <SkeletonNode {...props} />,
 }
 
 const initialNodes: Node[] = []
